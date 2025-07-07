@@ -1,0 +1,31 @@
+.preview {
+  background: #fff;
+  color: #000;
+  padding: 40px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+
+  :global {
+    .ant-typography,
+    .ant-typography p,
+    .ant-typography span,
+    .ant-typography h1,
+    .ant-typography h2,
+    .ant-typography h3,
+    .ant-typography h4 {
+      font-family: var(--resume-font-family);
+      font-size: var(--resume-font-size);
+    }
+  }
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.exportButton {
+  margin-left: 40px;
+}

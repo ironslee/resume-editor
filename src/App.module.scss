@@ -1,0 +1,29 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.layout {
+  min-height: 100vh;
+  width: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.sider {
+  background: #fff;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content {
+  padding: 24px;
+  width: 100%;
+  background: #fff;
+  color: #000;
+}
