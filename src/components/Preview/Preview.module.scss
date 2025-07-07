@@ -8,6 +8,36 @@
   margin: 0 auto;
   line-height: 1.8;
 
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  zoom: 0.9;
+
+  overflow: hidden;
+  page-break-after: always;
+  page-break-inside: avoid;
+  break-inside: avoid;
+
+  @media (max-width: 1200px) {
+    zoom: 0.85;
+  }
+
+  @media (max-width: 1150px) {
+    zoom: 0.75;
+  }
+
+  @media (max-width: 1000px) {
+    zoom: 0.7;
+  }
+
+  @media (max-width: 1000px) {
+    zoom: 0.55;
+  }
+
   :global {
     .ant-typography,
     .ant-typography p,
@@ -22,10 +52,18 @@
   }
 }
 
+.noBorder {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 50px 50px !important;
+  transform: none !important;
+}
+
 .section {
   margin-bottom: 24px;
 }
 
 .exportButton {
-  margin-left: 40px;
+  max-width: 300px;
+  margin-top: 30px;
 }
